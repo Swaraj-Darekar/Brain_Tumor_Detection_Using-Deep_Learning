@@ -1,0 +1,11 @@
+tensorflow==2.12.0
+keras==2.12.0
+numpy
+opencv-python
+matplotlib
+pillow
+flask
+werkzeug
+scikit-learn
+gunicorn
+h5py
