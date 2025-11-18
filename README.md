@@ -6,7 +6,7 @@ A deep learning–based web application that detects brain tumors from MRI image
 
 ## 🎥 Live Demo
 
-https://github.com/Swaraj-Darekar/Brain_Tumor_Detection_Using-Deep_Learning/blob/main/asset/Demo-video.gif)](https://github.com/Swaraj-Darekar/Brain_Tumor_Detection_Using-Deep_Learning/blob/main/Demo-video.mp4
+https://github.com/Swaraj-Darekar/Brain_Tumor_Detection_Using-Deep_Learning/blob/main/asset/Demo-video.gif
 
 
 
@@ -181,4 +181,5 @@ python src/evaluate.py
 💻 Passionate about Data Science & AI-based Web Apps
 ---
 ✨ Detect earlier, save lives — with AI-powered Brain Tumor Detection.✨
+
 
