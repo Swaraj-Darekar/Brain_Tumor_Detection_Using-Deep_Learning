@@ -2,18 +2,33 @@
 A deep learning–based web application that detects brain tumors from MRI images using a Convolutional Neural Network (CNN). The system classifies MRI images into four categories: **Glioma**, **Meningioma**, **Pituitary**, and **No Tumor**.
 
 # 🎥 Project Demo
+
+
+## 🎥 Live Demo
+
+![Demo](https://github.com/Swaraj-Darekar/Brain_Tumor_Detection_Using-Deep_Learning/blob/main/asset/Demo-video.gif)
+
+
+
+## 🎬 Full Demo Video
+
+[![Watch Full Demo](thumbnail.png)](https://your-video-link.com)
 ---
 
-## 🎬 Demo Video
+## 🖥️ User Interface Screenshots
 
-<p align="center">
-  <a href="assests/Demo-video.mp4">
-    <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg" alt="Video" width="60%">
-  </a>
-</p>
+### 🔹 Home Page
+![Home Page](asset/UI.png)
 
 
----
+### 🔹 Prediction Screen
+![Prediction Page](asset/Output_sc2.png)
+
+### 🔹 Prediction Screen
+![Prediction Page](asset/Output_sc1.png)
+
+
+
 
 ## 📌 Features
 - ✔️ Accurate brain tumor classification using CNN  
@@ -32,46 +47,41 @@ Brain-Tumor-Detection/
 ├── requirements.txt
 |
 |
-|
 ├── app/
-│   ├── application.py       # Flask or Streamlit app
-|   │                   
+│   ├── application.py          # Flask or Streamlit app
+│   │                   
 │   ├── templates/
-│   │   └── index.html        # Frontend page
-|   |      
+│   │   └── index.html          # Frontend page
+│   │      
 │   └── static/
 │       └── style.css
 │
 |
 ├── data/
 │   ├── archive/                 
-│         └── Testing           
-│         └── Training         
+│   │     └── Testing           
+│   │     └── Training         
 │
 |
 ├── src/
 │   ├── __init__.py
-│   ├── data_loader.py        # For loading and preprocessing data
-│   ├── model.py              # CNN/VGG16 model architecture
-│   ├── train.py              # Training pipeline
-│   ├── evaluate.py           # Evaluation metrics, confusion matrix
-│   ├── predict.py            # For single image prediction
-│   └── utils.py              # Helper functions (logging, plotting, etc.)
+│   ├── data_loader.py          # For loading and preprocessing data
+│   ├── model.py                # CNN/VGG16 model architecture
+│   ├── train.py                # Training pipeline
+│   ├── evaluate.py             # Evaluation metrics, confusion matrix
+│   ├── predict.py              # For single image prediction
+│   └── utils.py                # Helper functions (logging, plotting, etc.)
 │
 ├── models/
-│   ├── brain_tumor_model.h5     # Saved trained model
-│   └── history.pkl              # Training history (optional)
+│   ├── brain_tumor_model.h5    # Saved trained model
+│   └── history.pkl             # Training history (optional)
 │
 |
 ├── results/
 │   ├── confusion_matrix.png
 │   ├── roc_curve.png
 │   └── training_plot.png
-│   
-│
-
-
-
+|
 
 ```
 ---
@@ -171,7 +181,3 @@ python src/evaluate.py
 💻 Passionate about Data Science & AI-based Web Apps
 ---
 ✨ Detect earlier, save lives — with AI-powered Brain Tumor Detection.✨
-
-
-
-
