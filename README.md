@@ -7,7 +7,7 @@ A deep learning–based web application that detects brain tumors from MRI image
 ## 🎬 Demo Video
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID">
+  <a href="assests/Demo-video.mp4">
     <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg" alt="Video" width="60%">
   </a>
 </p>
@@ -171,6 +171,7 @@ python src/evaluate.py
 💻 Passionate about Data Science & AI-based Web Apps
 ---
 ✨ Detect earlier, save lives — with AI-powered Brain Tumor Detection.✨
+
 
 
 
